@@ -1,4 +1,4 @@
-package ch07_1;
+package ch07_diff;
 
 import ch07.P300_A;
 
