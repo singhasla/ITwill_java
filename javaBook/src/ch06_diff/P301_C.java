@@ -1,6 +1,6 @@
-package ch07_diff;
+package ch06_diff;
 
-import ch07.P300_A;
+import ch06.P300_A;
 
 public class P301_C {
 

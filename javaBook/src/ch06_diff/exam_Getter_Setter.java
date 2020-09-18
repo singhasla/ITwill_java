@@ -1,4 +1,4 @@
-package ch07_diff;
+package ch06_diff;
 
 public class exam_Getter_Setter {
 

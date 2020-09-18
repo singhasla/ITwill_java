@@ -1,4 +1,4 @@
-package ch07;
+package ch06;
 
 public class P300_B {
 
