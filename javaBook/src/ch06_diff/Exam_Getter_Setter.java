@@ -1,6 +1,6 @@
 package ch06_diff;
 
-public class exam_Getter_Setter {
+public class Exam_Getter_Setter {
 
 	private int balance;
 
