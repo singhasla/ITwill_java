@@ -29,7 +29,7 @@ public class P343_CarExample {
 				break;
 		}
 		
-		System.out.println("--------------------------------");
+		System.out.println("---------------------------");
 		
 		}
 	}
