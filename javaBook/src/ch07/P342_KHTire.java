@@ -1,0 +1,27 @@
+package ch07;
+
+public class P342_KHTire extends P340_Tire{
+
+	//필드
+	
+	//생성자
+	public P342_KHTire(String location, int maxRotation) {
+		super(location, maxRotation);
+	}
+	
+	//메소드
+	@Override
+	public boolean roll() {
+		
+		++accumulatedRotation;		//누적 회전수 1 증가
+		
+		if(accumulatedRotation < maxRotation) {
+			System.out.println(location + "KumhoTire 수명: " + (maxRotation - accumulatedRotation) + "회");
+			return true;
+		} else {
+			System.out.println("*** " + location + " KumhoTire 펑크 ***");
+			return false;
+		}
+
+	}
+}
