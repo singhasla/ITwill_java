@@ -14,6 +14,11 @@ public class P451_ClassCastExceptExam {
 
 	public static void changeDog(Animal animal){
 		//if(animal instanceof Dog){
-		Dog dog 
+			Dog dog = (Dog) animal;
+		//}
 	}
 }
+
+class Animal{}
+class Dog extends Animal{}
+class Cat extends Animal{}
