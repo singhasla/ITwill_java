@@ -34,7 +34,7 @@ public class P584_MapExample {
 		}
 		System.out.println("평균점수: " + totalScore / map.size());
 		System.out.println("최고점수: " + maxScore);
-		System.out.println("최고점수를 받은 아이디: " + name);
+		System.out.println("최고점수를 받은 아이디: "+ name);
 		
 	}
 
