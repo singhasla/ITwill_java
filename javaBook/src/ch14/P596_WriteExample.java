@@ -12,20 +12,12 @@ public class P596_WriteExample {
 		byte[] array = {10, 20, 30};
 		byte[] array2 = "abc".getBytes();
 		byte[] array3 = "È«±æµ¿".getBytes();
-		
-		byte[] temp = " ".getBytes();
-		
 		os.write(array);
-		os.write(temp);
 		os.write(array2);
-		os.write(temp);
 		os.write(array3);
-		os.write(temp);
 		
 		os.write("102030".getBytes());
-		os.write(temp);
 		os.write("def".getBytes());
-		os.write(temp);
 		os.write("È«µÎ²²".getBytes());
 		
 		os.flush();
