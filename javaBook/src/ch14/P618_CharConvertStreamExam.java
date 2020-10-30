@@ -28,7 +28,7 @@ public class P618_CharConvertStreamExam {
 
 	public static String read() throws Exception{
 
-		FileInputStream fis = new FileInputStream("c:/temp/test1.txt");
+		FileInputStream fis = new FileInputStream("C:/Users/ITWILL/Desktop/test1.txt");
 		Reader reader = new InputStreamReader(fis);
 		
 		char[] buffer = new char[100];
