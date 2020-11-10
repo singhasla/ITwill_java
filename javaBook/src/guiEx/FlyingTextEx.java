@@ -8,7 +8,7 @@ public class FlyingTextEx extends JFrame {
 
 	JPanel contentPane = new JPanel();
 	JLabel la /* = new JLabel("Hello") */;
-	final int FLYING_UNIT = 10;
+	final int FLYING_UNIT = 50;
 
 	FlyingTextEx() {
 		setTitle("상,하,좌,우 키로 텍스트 움직이기");
