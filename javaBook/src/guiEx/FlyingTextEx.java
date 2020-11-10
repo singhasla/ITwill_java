@@ -8,7 +8,7 @@ public class FlyingTextEx extends JFrame {
 
 	JPanel contentPane = new JPanel();
 	JLabel la /* = new JLabel("Hello") */;
-	final int FLYING_UNIT = 30;
+	final int FLYING_UNIT = 20;
 
 	FlyingTextEx() {
 		setTitle("상,하,좌,우 키로 텍스트 움직이기");
@@ -24,7 +24,19 @@ public class FlyingTextEx extends JFrame {
 		//contentPane.add(la); // 레이블 설정 및 패널에 붙임
 
 		/////////////////////////////////////////////////////////////////////////
-		ImageIcon icon = new ImageIcon("img/AmongUs1.png");
+		/* 이미지 움직이기 */
+		/*
+		 * ImageIcon 변경할아이콘 = new ImageIcon("이미지.png");
+		 * Image 변경할이미지 = 변경할아이콘.getImage(); //ImageIcon을 Image로 변환.
+		 * Image 변경된이미지 = 변경할이미지.getScaledInstance(가로, 세로, java.awt.Image.SCALE_SMOOTH);
+		 * ImageIcon 변경된아이콘 = new ImageIcon(변경된이미지); //Image로 ImageIcon 생성
+		 */
+		ImageIcon originalicon = new ImageIcon("img/AmongUs3.png");
+		Image Img = originalicon.getImage();  //ImageIcon을 Image로 변환.
+		Image changeImg = Img.getScaledInstance(150, 150, java.awt.Image.SCALE_SMOOTH);
+		ImageIcon icon = new ImageIcon(changeImg); //Image로 ImageIcon 생성
+		
+		
 		la = new JLabel(icon);
 		la.setLocation(50,50);
 		la.setSize(icon.getIconWidth(), icon.getIconHeight());
