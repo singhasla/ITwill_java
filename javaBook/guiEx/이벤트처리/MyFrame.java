@@ -1,4 +1,4 @@
-package guiEx;
+package 이벤트처리;
 
 import javax.swing.JFrame;
 import javax.swing.JButton;

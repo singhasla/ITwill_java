@@ -1,4 +1,4 @@
-package guiEx;
+package 이벤트처리;
 
 import java.awt.Color;
 import java.awt.FlowLayout;

@@ -1,4 +1,4 @@
-package guiEx;
+package 이벤트처리;
 
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
