@@ -19,7 +19,7 @@ public class JDBCEx1 {
 			Connection con = DriverManager.getConnection(DBURL, DBID, DBPW);
 			System.out.println("연결되었습니다.");
 
-			//
+
 			String sql = "insert into member(id_name,pw_name) values(?,password(?))";
 			PreparedStatement pstmt1 = con.prepareStatement(sql);
 			pstmt1.setString(1, "kim3");
